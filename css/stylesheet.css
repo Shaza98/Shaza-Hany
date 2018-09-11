@@ -74,6 +74,7 @@ p{
     margin-right: 70%;
     height: 100px;
     width: 100px;
+    background-color: blueviolet;
     background-image: url(Shaza.jpg);
     background-size: cover;
     border-radius: 50%;
