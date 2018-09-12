@@ -2,24 +2,20 @@
     box-sizing: border-box;
     font-family: 'Lato','Arial';
 }
-.split {
-    height: 100%;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    overflow-x: hidden;
-    padding-top: 20px;
-  }
+
 
 .left {
     left:0;
-    width: 43%;
+    width: 40%;
   }
 
 .right{
     right:0;
-    width: 57%;
+    width: 60%;  
 }
+.flex-container {
+    display: flex;
+  }
 
 h1,h3{
     text-align: center;
@@ -29,19 +25,16 @@ h1{
     padding: 5%;
 }
 h2{
-    color: blueviolet;
-    padding-right: 5%;
+    color: blueviolet;  
 }
-h2:after {
-    position: absolute;
+.line{
     display: inline-block;
-    height: 2px;
+    height: 3px;
     background-color: blueviolet;
-    content: " ";
-    width: 100%;
-    margin-top: 2%;
-    vertical-align: center;
+    margin-bottom: 1.5%;
 }
+
+
 h3{
     padding-bottom: 5%;
 }
@@ -70,19 +63,20 @@ p{
 /* HEADER */
 
 .circle{
-    margin-left: 42.5%;
+    margin-left: 32%;
     margin-right: 70%;
-    height: 100px;
-    width: 100px;
-    background-image: url(Shaza.jpg);
-    background-size: cover;
+    height: 200px ;
+    width: 200px ;
+    background-color: blueviolet;
     border-radius: 50%;
     display: block;
     position: relative;
 }
 
 /* PROFILE */
-
+.profile{
+    line-height: 145%;
+}
 textarea{
     width:100%;
     height:20%;
@@ -108,7 +102,9 @@ textarea{
     float: left;
     position: absolute;
 }
-
+.contact p{
+    line-height: 145%;
+}
 /* SKILLS */
 
 .small-circle{
@@ -124,6 +120,11 @@ textarea{
 .center{
     text-align: center;
 }
+
+.skills{
+    line-height: 145%;
+}
+
 
 /* EDUCATION */
 
